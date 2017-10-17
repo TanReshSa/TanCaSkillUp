@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir Dir1                                                                                                                                                                          
 cd Dir1                                                                                                                                                                             
 for i in A B C D E;  do date >> Test$i; done 
