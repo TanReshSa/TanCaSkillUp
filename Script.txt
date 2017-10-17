@@ -1,0 +1,6 @@
+mkdir Dir1                                                                                                                                                                          
+cd Dir1                                                                                                                                                                             
+for i in A B C D E;  do date >> Test$i; done 
+grep  '2017' *|wc -l  
+cd ..
+rm -r Dir1
